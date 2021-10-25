@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Тестовое задание от компании Urban Smart
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
