@@ -68,6 +68,7 @@ export const MyForm = () => {
                 onChange={e => setLogin(e.target.value)}
                 className="form__input"
                 variant="standard"
+                color="secondary"
             />
             <TextField
                 fullWidth
@@ -87,6 +88,7 @@ export const MyForm = () => {
                 }}
                 className="form__input"
                 variant="standard"
+                color="secondary"
             />
             <div className="form__button-wrapper">
                 <button 
