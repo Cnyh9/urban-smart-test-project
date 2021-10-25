@@ -18,11 +18,9 @@ login – `developer21`, password – `123456`,
 Для маршрутизации - `react-router`
 
 ## В этом проекте я использовал следующий стэк технологий:
+[
 
-
-
-### `npm start`
-
-Runs the app in the development mode.\
+[React JS](https://create-react-app.dev/docs/getting-started) - для инициализации реакт проекта и последующей разработки.
+[Redux](https://redux.js.org/introduction/getting-started) - для управления состоянием приложения
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
