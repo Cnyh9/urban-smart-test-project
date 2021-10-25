@@ -1,0 +1,51 @@
+.drops {
+    height: 0;
+}
+
+.drop {
+    background: rgba(#fff, .1);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    border: 1px solid rgba(#000, .1);
+    box-shadow: 10px 10px 60px -8px rgba(#000, 0.2);
+    position: absolute;
+    
+    @media(max-width: 375px) {
+        display: none;
+    }
+    
+  
+    &-1 {
+      position: relative;
+      height: 80px;
+      width: 80px;
+      top: -580px;
+      left: -40px;
+      z-index: -1;
+    }
+    
+    &-2 {
+      position: relative;
+      height: 80px;
+      width: 80px;
+      bottom: 130px;
+      right: -390px;
+    }
+    
+    &-3 {
+      position: relative;
+      height: 100px;
+      width: 100px;
+      bottom: 460px;
+      right: -400px;
+      z-index: -1;
+    }
+    
+    &-4 {
+      position: relative;
+      height: 120px;
+      width: 120px;
+      top: -870px;
+      right: -390px;
+    }
+}
